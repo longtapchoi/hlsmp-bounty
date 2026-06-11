@@ -1,0 +1,22 @@
+name: HLSMP-Bounty
+version: '1.0.2'
+main: de.elivb.donutBounty.Bounty
+api-version: '1.21'
+author: EliVB
+description: Bounty plugin for HLSMP
+folia-supported: true
+depend: [Vault]
+
+commands:
+  bounty:
+    description: Mở GUI bounty
+    usage: /bounty [add <người chơi> <số tiền>]
+  bountytoggle:
+    description: Bật/tắt nhận thông báo bounty
+    usage: /bountytoggle
+
+permissions:
+  bounty.use:
+    default: true
+  bounty.reload:
+    default: op

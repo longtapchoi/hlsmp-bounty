@@ -1,0 +1,56 @@
+# ###################################################################
+# ###################################################################
+# ###################################################################
+# ██    ██ ██    ██ ██      ██ ███    ███  █████  ██ ████████ ███████
+# ██    ██ ██    ██ ██      ██ ████  ████ ██   ██ ██    ██    ██
+# ██    ██ ██    ██ ██      ██ ██ ████ ██ ███████ ██    ██    █████
+# ██  ██   ██  ██  ██      ██ ██  ██  ██ ██   ██ ██    ██    ██
+# ████     ████   ███████ ██ ██      ██ ██   ██ ██    ██    ███████
+# ###################################################################
+# ###################################################################
+# ###################################################################
+
+#This Plugin is from EliVB
+
+#This is a Plugin like DonutSMP Bounty, you can change all of the messages.
+#For more Premium Skripts or Plugins join our Discord: "https://discord.gg/V3fcWZrccj"
+
+#permissions
+
+#Economy Settings
+economy:
+  provider: VAULT
+  currency-format: '#,##0.##'
+  abbreviations:
+    enabled: true # Accept 100k, 10k, 1m, etc... in the sign of price.
+    formats:
+      - K
+      - M
+      - B
+      - T
+
+if-kill-myself-get-reward: false
+limits:
+  min-amount: 10
+  max-amount: 1000000000
+
+chat-input:
+  SignAPI: true
+  ChatAPI: false
+
+sign-gui:
+  - ''
+  - ↑↑↑↑↑↑↑↑↑↑↑↑↑
+  - '   Name    '
+  - '             '
+
+sounds:
+  bounty-added:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+  no-perm:
+    enabled: true
+    sound: BLOCK_ANVIL_LAND
+  gui-click:
+    enabled: true
+    sound: UI_BUTTON_CLICK

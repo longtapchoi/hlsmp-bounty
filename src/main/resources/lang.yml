@@ -1,0 +1,25 @@
+# HLSMP-Bounty lang.yml
+
+messages:
+  no-permission: "&cBạn không có quyền thực hiện lệnh này!"
+  player-only: "&cChỉ người chơi mới dùng được lệnh này!"
+  reload: "&aĐã tải lại cấu hình thành công."
+  bounty-added: "&fBạn đã đặt &#fb0000$%amount_format% &ftiền thưởng lên đầu &#00a3fb%target_name%&f."
+  bounty-added-on-you: "&#00a3fb%user_name% &fđã đặt &#fb0000$%amount_format% &ftiền thưởng lên đầu bạn!"
+  u-got-bounty-kill: "&#00a3fb%user_name% &fvừa bị bạn tiêu diệt và bạn đã nhận được tiền thưởng!"
+  bounty-claimed-on-you: "&#00a3fb%killer_name% &fđã tiêu diệt bạn và nhận tiền thưởng trên đầu bạn!"
+  player-not-found: "&cKhông tìm thấy người chơi!"
+  cannot-add-bounty-to-yourself: "&cBạn không thể đặt tiền thưởng lên chính mình!"
+  invalid-amount: "&cSố tiền không hợp lệ!"
+  amount-below-min: "&fSố tiền tối thiểu là &#fb0000$%min_amount_format%&f."
+  amount-above-max: "&fSố tiền tối đa là &#fb0000$%max_amount_format%&f."
+  not-enough-balance: "&cBạn không đủ tiền để đặt tiền thưởng này."
+  search-prompt: "&cHãy nhập tên người chơi bạn muốn tìm kiếm!"
+  search-cancelled: "&cĐã hủy tìm kiếm!"
+  bounty-toggle-on: "&fĐã &aBẬT &fnhận thông báo bounty."
+  bounty-toggle-off: "&fĐã &cTẮT &fnhận thông báo bounty."
+
+action-bars:
+  bounty-added: "&fBạn đã đặt &#fb0000$%amount_format% &ftiền thưởng lên đầu &#00a3fb%target_name%&f."
+  bounty-added-on-you: "&#00a3fb%user_name% &fđã đặt &#fb0000$%amount_format% &ftiền thưởng lên đầu bạn!"
+  u-got-bounty-kill: "&#00a3fb%user_name% &fvừa bị bạn tiêu diệt — bạn nhận được tiền thưởng!"
